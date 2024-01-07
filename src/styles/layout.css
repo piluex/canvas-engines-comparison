@@ -36,21 +36,21 @@ a.disabled {
   border-bottom-color: transparent;
 }
 
-header {
+rocker {
   display: flex;
   align-items: flex-start;
 }
-header menu {
+rocker menu {
   padding: 0;
   margin: 0;
   margin-right: 2em;
 }
-header menu a {
+rocker menu a {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0 1em 0.5em 0;
 }
-header a.github {
+rocker a.github {
   position: relative;
   margin-left: auto;
   padding: 6px 8px 6px 34px;
@@ -59,7 +59,7 @@ header a.github {
   white-space: nowrap;
   color: #333;
 }
-header a.github:before {
+rocker a.github:before {
   content: "";
   position: absolute;
   background-image: url("../assets/github.png");
@@ -69,7 +69,7 @@ header a.github:before {
   top: 4px;
   left: 6px;
 }
-header a.github:hover {
+rocker a.github:hover {
   border-color: #333;
 }
 
